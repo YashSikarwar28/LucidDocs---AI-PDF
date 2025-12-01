@@ -3,6 +3,7 @@ import { Open_Sans } from "next/font/google";
 import Provider from "./provider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
+import { Analytics } from "@vercel/analytics/next"
 
 const openSans = Open_Sans({
   subsets: ["latin"], 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <body className={openSans.className}>
           <Provider>{children}</Provider>
           <Toaster/>
+          <Analytics/>
         </body>
       </html>
     </ClerkProvider>
