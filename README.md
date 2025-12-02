@@ -3,6 +3,8 @@
 LucidDocs is an AI-driven web application that allows users to upload PDFs and interact intelligently with their documents.
 Ask questions, get summaries, extract information, or understand complex material — all through a simple, elegant UI.
 
+![Preview](https://raw.githubusercontent.com/YashSikarwar28/LucidDocs---AI-PDF/refs/heads/main/Screenshot%20(3).png)
+
 ___
 
 🚀 Features
